@@ -39,17 +39,17 @@ Esta es una aplicación web simple desarrollada en Java que permite gestionar me
 
 ### Compilación
 ```bash
-mvn clean compile
-```
-
-### Ejecutar Análisis PMD
-```bash
-mvn pmd:check
+mvnd clean compile
 ```
 
 ### Generar WAR
 ```bash
-mvn clean package
+mvnd clean package
+```
+
+### Ejecutar WAR
+```bash
+mvnd tomcat7:run
 ```
 
 ## Estructura del Proyecto

@@ -12,7 +12,7 @@ import java.util.Base64;
 public class ServicioEncriptacion {
     
     // FALLO 1: HardCodedCryptoKey - Clave codificada directamente en el código
-    private static final String CLAVE_SECRETA = "MiClaveSecreta123456"; // 16 bytes para AES
+    private static final String CLAVE_SECRETA = "MiClaveSecreta16"; // Exactamente 16 bytes para AES
     
     // FALLO 2: InsecureCryptoIv - Vector de inicialización hardcodeado
     private static final byte[] IV_FIJO = new byte[] {
